@@ -1,0 +1,79 @@
+/* ░▒▓█►─═ Smaller Devices  ═─◄█▓▒░ */
+@media (max-width: 480px) {
+    
+    .container{
+        width: 90%;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    /* hero section */
+    .hero-section{
+        grid-gap: 20px;
+        align-items: center;
+        padding: 30px 0;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+    .hero-left{
+        order:2;
+        text-align: center;
+
+    }
+    .hero-banner{
+        background-size: contain;
+    }
+    /* hero section end */
+    
+    /* Popular Collections */
+    .popular-collection{
+        width: 90%;
+    }
+    .collections{
+        grid-template-columns: 0.7fr;
+        grid-gap: 30px;
+        justify-content: center;
+    
+    }
+    .product-price{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .product-shipping br{
+        display: none;
+    }
+    .see-more{
+        text-align: right;
+        font-weight: 700;
+    }
+    /* Find Bloggers Styles  */
+    .find-blogger h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .find-blogger p{
+     font-weight: 700;
+     line-height: 28px;
+    
+    }
+    .analytics{
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .analytic-item h5{
+        font-size: 22px;
+    }
+    .analytic-item p{
+        text-align: center;
+    }
+
+}
+/* ░▒▓█►─═ Smaller Devices End  ═─◄█▓▒░ */
+
+/* ░▒▓█►─═ Mobile rotate & Tab  Devices   ═─◄█▓▒░ */
+@media (min-width:481px) and (max-width:768px) {
+    
+}
+/* ░▒▓█►─═ Mobile rotate & Tab  Devices End ═─◄█▓▒░ */
