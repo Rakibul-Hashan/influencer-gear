@@ -1,6 +1,31 @@
 /* ░▒▓█►─═ Smaller Devices  ═─◄█▓▒░ */
 @media (max-width: 480px) {
+        /* header styles */
+        header{
+            grid-template-columns: repeat(3, 1fr);
+            
+        }
+        .logo{
+            text-align: center;
+            
+        }
+        .logo span{
+            font-size: 22px;
+        }
+        .nav-desktop{
+            display: none;
+        }
+        .nav-mobile{
+            display: block;
     
+        }
+        .nav-icons{
+            order: 3;
+        }
+        .nav-icons .fa-search{
+            display: none;
+        }
+        /* header styles */
     .container{
         width: 90%;
     }
@@ -77,6 +102,32 @@
     .container{
         width: 90%;
     }
+     /* header styles */
+     header{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .logo{
+        text-align: center;
+        
+    }
+    .logo span{
+        font-size: 22px;
+    }
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+
+    }
+    .nav-icons{
+        order: 3;
+    }
+    .nav-icons .fa-search{
+        display: none;
+    }
+    /* header styles */
     h2{
         font-size: 35px;
         line-height: 40px;
@@ -114,6 +165,32 @@
         width: 90%;
         margin:auto;
     }
+     /* header styles */
+     header{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .logo{
+        text-align: center;
+        
+    }
+    .logo span{
+        font-size: 22px;
+    }
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+
+    }
+    .nav-icons{
+        order: 3;
+    }
+    .nav-icons .fa-search{
+        display: none;
+    }
+    /* header styles */
     h2{
         font-size: 35px;
         line-height: 40px;
@@ -160,6 +237,29 @@
         width: 90%;
         margin:auto;
     }
+    /* header styles */
+    header{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .logo{
+        text-align: center;
+        
+    }
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+
+    }
+    .nav-icons{
+        order: 3;
+    }
+    .nav-icons .fa-search{
+        display: none;
+    }
+    /* header styles */
     .hero-section{
         grid-gap: 20px;
         align-items: center;
